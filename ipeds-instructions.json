@@ -1,0 +1,69 @@
+{
+	"predictive": "RET_PCF",
+	"primarykey": "UNITID",
+
+	"url": "https://nces.ed.gov/ipeds/datacenter/data/",
+	"format": ".zip",
+
+	"tables":[ 
+		{ "name": "HD2016", 
+		  "includeall": false,
+		  "strings": ["INSTNM", "STABBR", "UNITID", "COUNTYNM"],
+		  "discrete": ["OBEREG", "OPEFLAG", "ICLEVEL", "CONTROL",
+			       "HLOFFER", "UGOFFER", "GROFFER", "HDEGOFR1",
+			       "DEGGRANT", "HBCU", "HOSPITAL", "MEDICAL",
+			       "TRIBAL", "CARNEGIE", "LOCALE", "PSET4FLG",
+			       "INSTCAT", "LANDGRNT", "C15UGPRF", "C15ENPRF",
+			       "C15SZSET", "F1YSTYP", "INSTSIZE"],
+		  "continuous": []},
+
+		{ "name": "IC2016", 
+		  "includeall": true, 
+		  "exclude": ["ASSOC1", "ASSOC2", "ASSOC3", "ASSOC4"],
+		  "strings": [],
+		  "continuous": ["APPLFEEU", "APPLFEEG", "ROOMCAP", "MEALSWK",
+				 "ROOMAMT", "BOARDAMT", "RMBRDAMT", "DISABPCT"]},
+
+		{ "name":"IC2016_AY"},
+
+		{ "name":"ADM2016"},
+
+		{ "name":"EFFY2016"},
+
+		{ "name":"EF2016A"},
+
+		{ "name":"EF2016B"},
+
+		{ "name":"EF2016C"},
+
+		{ "name":"EF2016D"},
+
+		{ "name":"EF2016A_DIST"},
+
+		{ "name":"SFA1516"},
+
+		{ "name":"SFAV1516"},		
+
+		{ "name":"F1516_F1A"},		
+
+		{ "name":"F1516_F2"},		
+
+		{ "name":"F1516_F3"},		
+
+		{ "name":"EAP2016"},		
+
+		{ "name":"SAL2016_IS"},		
+
+		{ "name":"SAL2016_NIS"},		
+
+		{ "name":"S2016_OC"},		
+
+		{ "name":"S2016_SIS"},		
+
+		{ "name":"S2016_NH"},		
+
+		{ "name":"AL2016"}		
+
+	]
+}
+
