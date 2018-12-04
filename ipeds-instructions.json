@@ -197,7 +197,7 @@
 		  "defaulttype": "continuous",
 		  "exclude": [],
 		  "strings": [],
-		  "discrete": [],
+		  "discrete": ["LFRNGBYN"],
 		  "continuous": []}		
 
 	]
